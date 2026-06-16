@@ -3,3 +3,11 @@
 	email = rowan@coder.com
 [core]
     pager = cat
+[gpg]
+    format = ssh
+[user]
+    signingkey = key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF61pMjqmJo2RfnStsA6NH7BDfGzdD4sHO4ETsWGczma rowan@rsmith.id.au
+[commit]
+    gpgsign = true
+[tag]
+    gpgsign = true
