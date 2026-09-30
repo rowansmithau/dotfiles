@@ -2,9 +2,11 @@ declare -A CODER_CONTEXTS
 CODER_CONTEXTS[prod]="https://coder.mcrn.cc"
 CODER_CONTEXTS[dev]="https://dev-coder.mcrn.cc"
 CODER_CONTEXTS[enc]="https://enc-coder.mcrn.cc"
+CODER_CONTEXTS[esr]="https://esr-coder.mcrn.cc"
 CODER_CONTEXTS[coder-main]="https://coder-main.mcrn.cc"
 CODER_CONTEXTS[mac]="http://coder.rshl.cc"
-CODER_CONTEXTS[devdev]="http://dev.coder.com"
+CODER_CONTEXTS[devdev]="https://dev.coder.com"
+CODER_CONTEXTS[rc]="https://coder-rc.mcrn.cc"
 
 CODER_CONTEXTS_DIR="${HOME}/.config/coder-contexts"
 
