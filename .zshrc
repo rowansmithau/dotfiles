@@ -136,7 +136,9 @@ ss() {
   shikari shell coder-srv-01
 }
 
-source ~/.coder-contexts.sh
+if [[ "$OSTYPE" == darwin* && -f ~/.coder-contexts.zsh ]]; then
+  source ~/.coder-contexts.zsh
+fi
 
 #zprof
 
