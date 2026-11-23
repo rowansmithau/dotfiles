@@ -1,13 +1,15 @@
-# This is Git's per-user configuration file.
 [user]
 	name = Rowan Smith
 	email = rowan@coder.com
-	signingkey = key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF61pMjqmJo2RfnStsA6NH7BDfGzdD4sHO4ETsWGczma rowan@rsmith.id.au
-[core]
-	pager = cat
 [gpg]
 	format = ssh
+[gpg "ssh"]
+	defaultKeyCommand = ssh-add -L
 [commit]
 	gpgsign = true
+[tag]
+	gpgsign = true
+[core]
+	pager = cat
 [init]
 	defaultBranch = main
