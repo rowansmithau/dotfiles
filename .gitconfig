@@ -13,3 +13,7 @@
 	pager = cat
 [init]
 	defaultBranch = main
+
+# commit signing via ssh uses remote signing from bitwarden. 
+# requires `export SSH_AUTH_SOCK=~/.bitwarden-ssh-agent.sock` in shell and
+# `Host *.IdentityAgent ~/.bitwarden-ssh-agent.sock` in ssh/config
